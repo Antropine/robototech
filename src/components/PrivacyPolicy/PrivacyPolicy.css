@@ -1,0 +1,85 @@
+.privacy-policy {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    font-family: SFProText;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.privacy-policy h1 {
+    font-family: 'HomeVideo', sans-serif;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.privacy-policy h2 {
+    font-family: 'HomeVideo', sans-serif;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.privacy-policy ul {
+    padding-left: 20px;
+}
+
+.table-police {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 14px;
+    box-shadow: 5px 5px black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table-police thead {
+    background-color: #B6BFF4;
+}
+
+.table-police th {
+    font-family: 'HomeVideo', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    padding: 15px 10px;
+    text-align: left;
+    border: 1px solid #8888CC;
+}
+
+.table-police td {
+    padding: 12px 10px;
+    border: 1px solid #8888CC;
+    background-color: #F4F9B1;
+    vertical-align: top;
+}
+
+.table-police tbody tr:nth-child(even) td {
+    background-color: #FFDAF6;
+}
+
+.table-police td ol {
+    margin: 0;
+    padding-left: 18px;
+}
+
+@media (max-width: 768px) {
+    .table-police {
+        display: block;
+        overflow-x: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .privacy-policy {
+        padding: 30px 15px;
+    }
+    .privacy-policy h1 {
+        font-size: 24px;
+    }
+    .privacy-policy h2 {
+        font-size: 18px;
+    }
+    .privacy-policy {
+        font-size: 16px;
+    }
+}

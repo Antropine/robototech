@@ -1,0 +1,378 @@
+
+.robototechnika {
+    flex-grow: 1;
+    margin: 0 40px;
+    background-image: url('../../images/robot_background.png');
+    border-radius: 50px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.robototechnika > header {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.robototechnika__content h1{
+    color: #9DBEFF;
+    font-weight: 400;
+    font-size: 128px;
+    margin: 0;
+    font-family: VMVSegaGenesis;
+    text-shadow: 18px 9px #000792;
+    flex-wrap: wrap;
+}
+
+.robototechnika__content{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    overflow-x: hidden;
+    margin-bottom: 150px;
+}
+
+
+.robototechnika__titles {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.robototechnika__titles h1:first-child{
+    margin-top: 60px;
+}
+
+.robototechnika__titles h1:last-child {
+    margin-left: 150px;
+}
+
+.robototechnika__image {
+    flex-shrink: 0;
+    margin-left: -300px;
+    max-width: 100%;
+    height: auto;
+    align-self: flex-start;
+}
+
+.robototechnika__image img {
+    display: block;
+    width: 800px;
+    max-width: 100%;
+}
+
+.invite{
+    display: flex;
+    justify-content: center;
+    max-width: 940px;
+    flex-direction: column;
+    text-align: left;
+    color: black;
+    margin: 0 auto;
+    font-family: 'SFProText';
+}
+
+.invite h2{
+    font-weight: 400;
+    font-size: 48px;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.invite p{
+    font-size: 24px;
+    font-family: 'SFProText';
+    line-height: 1.3;
+}
+
+.grid-item{
+    display: flex;
+    flex-direction: column;
+    background-color: #EDF9FF;
+    border-radius: 10px;
+    max-width: 100%;
+    box-shadow: 0px 10px black;
+}
+
+.blue-topbar{
+    display: flex;
+    padding: 5px 10px;
+    background-color: #ADCEFF;
+    border-radius: 10px 10px 0px 0px;
+    justify-content: flex-end;
+    transition: all 0.5s;
+}
+
+.blue-topbar img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.item-title{
+    font-size: 32px;
+    text-align: center;
+    margin: 0;
+}
+
+.item-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.item-text{
+    font-size: 24px;
+    font-family: 'SFProText';
+    text-align: left;
+    max-width: 90%;
+}
+
+.lesson{
+    position: relative;
+    overflow: hidden;
+}
+
+.contact {
+    overflow: hidden;
+}
+
+.contact a {
+    word-break: break-all;
+}
+
+.project-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.lesson h2{
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+
+.lesson-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px 200px;
+}
+
+.cat-think{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cat-think img{
+    width: 300px;
+}
+
+.project-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-text{
+    max-width: 900px;
+    font-size: 24px;
+    font-family: 'SFProText';
+    margin-bottom: 150px;
+}
+
+.project-text h2{
+    font-family: 'HomeVideo';
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.invite h2{
+    font-family: 'HomeVideo';
+}
+
+.project .gift-window{
+    max-width: 800px;
+    margin: 100px auto 0;
+}
+
+@media (max-width: 1024px) {
+    .robototechnika {
+        margin: 0px 20px;
+    }
+    .robototechnika__content h1 {
+        font-size: 90px;
+        text-shadow: 12px 6px #000792;
+    }
+    .robototechnika__content {
+        padding: 0 20px;
+        margin-bottom: 80px;
+    }
+    .robototechnika__titles h1:last-child {
+        margin-left: 80px;
+    }
+
+    .robototechnika__image img {
+        width: 500px;
+    }
+    .lesson-grid {
+        gap: 30px;
+    }
+    .cat-think img {
+        width: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .robototechnika {
+        margin: 0;
+        padding: 0 15px;
+    }
+    .robototechnika {   
+        background-image: url('../../images/mobile_roboto_background.png');
+        border-radius: 20px;
+    }
+    .robototechnika__content {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+        padding: 0;
+    }
+    .robototechnika__content h1 {
+        font-size: 64px;
+        text-shadow: 8px 4px #000792;
+    }
+    .robototechnika__titles h1:last-child {
+        margin-left: 40px;
+    }
+    .robototechnika__image {
+        margin-left: 0;
+        margin: 0 auto;
+    }
+    .robototechnika__image img {
+        width: 100%;
+        max-width: 400px;
+    }
+    .invite h2 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .invite p {
+        font-size: 20px;
+        margin-top: 0;
+    }
+    .lesson h2 {
+        font-size: 36px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .lesson-grid {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+        margin: 0 auto;
+        justify-items: center;
+    }
+    .cat-think {
+        display: none;
+    }
+    .item-title {
+        font-size: 24px;
+    }
+    .item-text {
+        font-size: 18px;
+    }
+    .project-content {
+        flex-direction: column;
+    }
+    .project-text {
+        margin-bottom: 30px;
+    }
+    .project-text h2 {
+        font-size: 36px;
+    }
+    .project-img img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .robototechnika {
+        margin: 0 10px;
+    }
+    .robototechnika__content h1 {
+        font-size: 48px;
+        text-shadow: 5px 3px #000792;
+    }
+    .robototechnika__titles h1:last-child {
+        margin-left: 20px;
+    }
+    .invite{
+        width: 85%;
+        margin-top: 40px;
+    }
+    .invite h2 {
+        font-size: 24px;
+    }
+    .invite p {
+        font-size: 12px;
+    }
+    .lesson h2 {
+        font-size: 16px;
+        width: 50%;
+        line-height: 1.3;
+    }
+
+    .tg div, .vk div {
+        max-width: 150px; 
+        word-wrap: break-word; 
+        overflow-wrap: break-word;
+    }
+
+    .grid-item{
+        margin: 0;
+        padding: 0;
+    }
+
+    .lesson-grid{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .item-title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .item-text {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .blue-topbar img{
+        width: 15px;
+    }
+
+    .project-text h2 {
+        font-size: 16px;
+        margin-top: 40px;
+    }
+    .project-text {
+        font-size: 12px;
+        width: 95%;
+    }
+    .project .gift-window {
+        margin-top: 30px;
+    }
+
+    .registration-button--mobile{
+        margin-top: 25px;
+    }
+
+    .project-img{
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .lesson__container{
+       margin: 0 auto;
+    }
+}

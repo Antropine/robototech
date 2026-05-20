@@ -1,0 +1,51 @@
+.cookie-banner {
+    position: fixed;
+    bottom: 30px;
+    margin-left: 50px;
+    background-color: #FE785B;
+    border-radius: 10px;
+    box-shadow: 6px 4px black;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    z-index: 1000;
+}
+
+.cookie-banner__text {
+    font-family: SFProText;
+    font-size: 20px;
+    margin: 0;
+}
+
+.cookie-banner__close{
+    align-self: flex-end;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}
+
+.cookie-banner__btn {
+    font-family: 'VMVSegaGenesis', sans-serif;
+    font-size: 18px;
+    padding: 10px 30px;
+    background-color: #FAB5EE;
+    border: 1px solid black;
+    white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+    .cookie-banner {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 15px 20px;
+    }
+    .cookie-banner__text {
+        font-size: 16px;
+    }
+    .cookie-banner__btn {
+        font-size: 16px;
+        padding: 8px 20px;
+    }
+}

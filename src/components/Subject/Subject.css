@@ -1,0 +1,119 @@
+.subject__list{
+    display: flex;
+    gap: 20px;
+}
+
+.subject__card1{
+    background-color: #B69DFF;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 10px 10px black;
+}
+
+.subject__card2{
+    background-color: #9DD4FF;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 10px 10px black;
+}
+
+.subject__card3{
+    background-color: #FF9DE8;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 10px 10px black;
+}
+
+.subject-button{
+   background-color: #FFEF9D;
+   font-size: 25px;
+   padding: 15px 20px;
+   box-shadow: 3px 3px black, inset 5px 5px 4px white;
+   display: block;
+   margin-left: auto;
+   width: fit-content;
+   transition: all 0.5s;
+   font-family: VMV Sega Genesis;
+   text-decoration: none;
+   color: black;
+}
+
+.subject-button:hover{
+    transform: scale(1.08);
+}
+
+.subject__card-text{
+    font-size: 20px;
+    font-family: SFProText;
+}
+
+.subject__card-title{
+    font-size: 48px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.subject__list .icon{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 1024px) {
+    .subject__card-title {
+        font-size: 36px;
+    }
+    .subject__card-text {
+        font-size: 18px;
+    }
+    .subject-button{
+        font-family: VMV Sega Genesis;
+    }
+}
+
+@media (max-width: 768px) {
+    .subject__list {
+        flex-direction: column;
+    }
+    .subject__card-title {
+        font-size: 32px;
+    }
+    .subject-button{
+        font-family: VMV Sega Genesis;
+    }
+
+    .subject__card1{
+    padding: 8px 12px;
+    box-shadow: 5px 5px black;
+    }
+    
+    .subject__card2{
+    padding: 8px 12px;
+    box-shadow: 5px 5px black;
+    }
+
+    .subject__card3{
+    padding: 8px 12px;
+    box-shadow: 5px 5px black;
+    }
+}
+
+@media (max-width: 480px) {
+    .subject__card-title {
+        font-size: 30px;
+    }
+    .subject__card-text {
+        font-size: 13px;
+    }
+    .subject-button {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+
+    .subject__list .icon{
+        height: 38px;
+    }
+    .subject-button{
+        font-family: VMV Sega Genesis;
+    }
+}

@@ -1,0 +1,133 @@
+.contacts__container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contacts__title{
+    width: 100%;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.cat-image{
+    width: 250px;
+}
+
+.social-icon{
+    width: 100px;
+    height: 100px;
+    margin-right: 25px;
+    transition: all 0.5s;
+}
+
+.social-icon:hover{
+    transform: scale(1.05);
+}
+
+.tg{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+}
+
+.vk{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+}
+
+.contacts__container{
+    justify-content: space-between;
+}
+
+.vk a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    word-break: break-all;
+    overflow-wrap: break-word;
+}
+
+.tg a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    word-break: break-all;
+    overflow-wrap: break-word;
+}
+
+.social-info{
+    display: flex;
+    align-items: center;
+}
+
+.tg p, .vk p{
+     margin: 0 0 25px 0;
+}
+
+.phone{
+    text-align: center;
+    font-size: 45px;
+    word-spacing: -15px;
+}
+
+@media (max-width: 768px) {
+    .contacts__container {
+        gap: 15px;
+    }
+    .contacts__title {
+        font-size: 36px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    .cat-image {
+        width: 110px;
+    }
+    .tg, .vk {
+        font-size: 24px;
+        gap: 35px;
+        padding: 15px;
+        width: 100%;
+    }
+    .social-icon {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contacts__title {
+        font-size: 20px;
+    }
+    .tg, .vk {
+        font-size: 16px;
+        align-items: center;
+        width: 100%;
+        gap: 15px;
+    }
+    .vk {
+        margin-left: 0;
+    }
+    .social-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .social-icon {
+        width: 40px;
+        height: 40px;
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+    .cat-image {
+        width: 80px;
+    }
+
+    .vk p{
+         margin: 5px 0px;
+    }
+
+    .tg p{
+        margin: 5px 0px;
+    }
+}

@@ -1,0 +1,214 @@
+
+.learning__title-wrapper{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 8px 8px;
+    width: fit-content;
+    margin-bottom: 60px;
+}
+
+.learning__title{
+    font-weight: 400;
+    font-size: 48px;
+    margin: 0;
+}
+
+.learning-window{
+    max-width: 1100px;
+    width: 100%;
+}
+
+.learning__title img{
+    width: 50px;
+    margin: 0;
+}
+
+.learning-card{
+    display: flex;
+    align-items: center;
+}
+
+.learning-window{
+    border-radius: 10px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.learning-window__topbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-bottom: 1px solid black;
+    background-color: #FFDAF6;
+    border-radius: 10px 10px 0 0;
+}
+
+.learning-window__circles{
+    display: flex;
+    gap: 10px;
+}
+
+.learning-window__close{
+    width: 30px;
+    height: 30px;
+}
+
+.learning-window__body{
+    background-color: #ADDBFF;
+    padding: 20px 30px;
+    font-family: SFProText;
+    font-size: 24px;
+    line-height: 1.3;
+}
+
+.papki{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    margin-top: 100px;
+}
+
+.papka p{
+    text-align: center;
+    font-size: 36px;
+    margin: 20px;
+}
+
+.papka a{
+    text-decoration: none;
+    color: black;
+}
+
+.papka{
+    transition: all 0.5s;
+}
+
+.papka img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.papka:first-child img{
+    position: relative;
+    top: 0;
+    transition: top 0.5s;
+}
+
+.papka:first-child:hover img{
+    top: -20px;
+}
+
+.papka .papka-hover{
+    display: none;
+}
+
+.papka:hover .papka-default{
+    display: none;
+}
+
+.papka:hover .papka-hover{
+    display: block;
+}
+
+@media (max-width: 1024px) {
+    .learning-window {
+        width: auto;
+        border-radius: 3px;
+    }
+    .papki {
+        gap: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .learning__title-wrapper {
+        margin-bottom: 30px;
+    }
+    .learning__title {
+        font-size: 32px;
+    }
+    .learning-card {
+        flex-direction: row;
+    }
+    .learning-card img {
+        max-width: 130px;
+    }
+    .learning-window__body {
+        font-size: 18px;
+    }
+    .papki {
+        gap: 30px;
+        margin-top: 40px;
+    }
+    .papka p {
+        font-size: 24px;
+    }
+    .papka img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .learning-window__close{
+        width: 11px;
+        height: 11px;
+    }
+
+    .learning-window__circles .circle {
+        width: 5px;
+        height: 5px;
+        border: 0.15px solid black;
+    }
+
+    .learning-window__topbar{
+        padding: 4px;
+    }
+}
+
+@media (max-width: 480px) {
+     .learning__title-wrapper{
+        padding: 10px;
+        border-radius: 4px;
+        box-shadow: 3px 3px black;
+    }
+
+    .learning-window{
+        border: 0.15px solid black;
+    }
+
+    .learning__title {
+        font-size: 16px;
+    }
+    .learning__title img {
+        width: 20px;
+    }
+    .learning-window__body {
+        font-size: 12px;
+        padding: 15px;
+    }
+    .papki {
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 30px;
+        gap: 0px;
+    }
+    .papka {
+        flex: 1;
+        text-align: center;
+    }
+    .papka a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .papka p {
+        font-size: 20px;
+    }
+    .papka img {
+        width: 85px;
+        height: auto;
+    }
+}
