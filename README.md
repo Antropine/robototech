@@ -12,7 +12,7 @@
 > Современный сайт обучения детей робототехнике, программированию и 3D-моделированию
 
 <p align="center">
-  <img src="./images/gif_virus.gif" alt="Project preview" width="100%" />
+  <img src="https://raw.githubusercontent.com/Antropine/robototech/main/src/images/gif_virus.gif" />
 </p>
 
 ---
