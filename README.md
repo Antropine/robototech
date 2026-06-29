@@ -6,6 +6,7 @@
 <img src="https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3" />
 
 </p>
+
 # СТАРТ — центр обучения детей
 
 > Современный сайт обучения детей робототехнике, программированию и 3D-моделированию
