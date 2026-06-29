@@ -1,3 +1,11 @@
+<p align="center">
+
+<img src="https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react" />
+<img src="https://img.shields.io/badge/JavaScript-ES6+-yellow?style=for-the-badge&logo=javascript" />
+<img src="https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5" />
+<img src="https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3" />
+
+</p>
 # СТАРТ — центр обучения детей
 
 > Современный сайт обучения детей робототехнике, программированию и 3D-моделированию
